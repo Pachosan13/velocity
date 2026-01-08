@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="fixed top-0 w-full z-50 apple-blur border-b border-slate-100 transition-all duration-300">
-      <div className="max-w-screen-xl mx-auto px-6 h-14 flex items-center justify-between">
+      <div className="max-w-screen-xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link 
           to="/" 
           className="flex items-center hover:opacity-70 transition-opacity"
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           <img
             src="/velocitylogo.png"
             alt="Velocity"
-            className="h-5 w-auto"
+            className="h-16 w-auto"
             loading="eager"
             decoding="async"
           />
