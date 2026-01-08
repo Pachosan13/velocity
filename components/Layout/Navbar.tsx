@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           className="flex items-center hover:opacity-70 transition-opacity"
         >
           <img
-            src="/velocitylogo.png"
+            src="/velocitylogo.png?v=2"
             alt="Velocity"
             className="h-16 w-auto"
             loading="eager"
