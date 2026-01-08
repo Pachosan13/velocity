@@ -30,10 +30,15 @@ const Navbar: React.FC = () => {
       <div className="max-w-screen-xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link 
           to="/" 
-          className="flex items-center gap-2 hover:opacity-70 transition-opacity"
+          className="flex items-center hover:opacity-70 transition-opacity"
         >
-          <div className="w-5 h-5 bg-black rounded-sm"></div>
-          <span className="font-bold tracking-tight text-lg">Velocity</span>
+          <img
+            src="/velocitylogo.png"
+            alt="Velocity"
+            className="h-5 w-auto"
+            loading="eager"
+            decoding="async"
+          />
         </Link>
         
         <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-widest font-bold text-slate-500">

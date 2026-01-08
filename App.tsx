@@ -13,6 +13,9 @@ import FinalCTA from './components/FinalCTA';
 import MissedCallsSEO from './components/MissedCallsSEO';
 import LeadsNotContactedSEO from './components/LeadsNotContactedSEO';
 import SlowResponseSEO from './components/SlowResponseSEO';
+import AfterHoursCarDealershipLeadsSEO from './components/AfterHoursCarDealershipLeadsSEO';
+import LosingCarSalesLeadsSEO from './components/LosingCarSalesLeadsSEO';
+import VirtualBDCForCarDealershipsSEO from './components/VirtualBDCForCarDealershipsSEO';
 import SEO from './components/SEO';
 
 const ScrollToTop = () => {
@@ -55,6 +58,9 @@ const Home = () => (
         <Link to="/car-dealership-leads-not-contacted" className="hover:text-slate-900 transition-colors">Uncontacted Patterns</Link>
         <Link to="/missed-calls-car-dealership" className="hover:text-slate-900 transition-colors">Missed Call Impact</Link>
         <Link to="/slow-lead-response-car-dealers" className="hover:text-slate-900 transition-colors">Speed-to-Lead Logic</Link>
+        <Link to="/after-hours-car-dealership-leads" className="hover:text-slate-900 transition-colors">After Hours</Link>
+        <Link to="/losing-car-sales-leads" className="hover:text-slate-900 transition-colors">Lead Loss</Link>
+        <Link to="/virtual-bdc-for-car-dealerships" className="hover:text-slate-900 transition-colors">Virtual BDC</Link>
       </div>
     </div>
     <ForWhom />
@@ -90,6 +96,9 @@ const App: React.FC = () => {
         <Route path="/missed-calls-car-dealership" element={<MissedCallsSEO />} />
         <Route path="/car-dealership-leads-not-contacted" element={<LeadsNotContactedSEO />} />
         <Route path="/slow-lead-response-car-dealers" element={<SlowResponseSEO />} />
+        <Route path="/after-hours-car-dealership-leads" element={<AfterHoursCarDealershipLeadsSEO />} />
+        <Route path="/losing-car-sales-leads" element={<LosingCarSalesLeadsSEO />} />
+        <Route path="/virtual-bdc-for-car-dealerships" element={<VirtualBDCForCarDealershipsSEO />} />
       </Routes>
       
       <footer className="py-24 bg-white border-t border-slate-100">
