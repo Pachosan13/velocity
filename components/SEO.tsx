@@ -10,7 +10,7 @@ interface SEOProps {
 
 const SEO: React.FC<SEOProps> = ({ title, description, canonicalPath }) => {
   const fullTitle = `${title} | Velocity`;
-  const domain = "https://velocity-systems.com"; // Placeholder
+  const domain = "https://get-velocity.com";
   const url = `${domain}${canonicalPath}`;
 
   return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import SEO from './SEO';
 
 const APPLY_EMAIL_HREF =
@@ -13,9 +12,6 @@ const MiamiLanding: React.FC = () => {
         description="Velocity is an inventory acquisition operator focused on speed. Apply for Miami early access."
         canonicalPath="/miami"
       />
-      <Helmet>
-        <meta name="robots" content="noindex,nofollow" />
-      </Helmet>
 
       {/* 1. HERO SECTION */}
       <section className="px-6 py-32 md:py-40 text-center max-w-5xl mx-auto scroll-reveal opacity-0 transition-all duration-1000">
