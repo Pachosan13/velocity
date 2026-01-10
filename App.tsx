@@ -16,6 +16,7 @@ import SlowResponseSEO from './components/SlowResponseSEO';
 import AfterHoursCarDealershipLeadsSEO from './components/AfterHoursCarDealershipLeadsSEO';
 import LosingCarSalesLeadsSEO from './components/LosingCarSalesLeadsSEO';
 import VirtualBDCForCarDealershipsSEO from './components/VirtualBDCForCarDealershipsSEO';
+import MiamiLanding from './components/MiamiLanding';
 import SEO from './components/SEO';
 
 const ScrollToTop = () => {
@@ -93,6 +94,7 @@ const App: React.FC = () => {
       
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/miami" element={<MiamiLanding />} />
         <Route path="/missed-calls-car-dealership" element={<MissedCallsSEO />} />
         <Route path="/car-dealership-leads-not-contacted" element={<LeadsNotContactedSEO />} />
         <Route path="/slow-lead-response-car-dealers" element={<SlowResponseSEO />} />
