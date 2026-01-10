@@ -17,6 +17,11 @@ import AfterHoursCarDealershipLeadsSEO from './components/AfterHoursCarDealershi
 import LosingCarSalesLeadsSEO from './components/LosingCarSalesLeadsSEO';
 import VirtualBDCForCarDealershipsSEO from './components/VirtualBDCForCarDealershipsSEO';
 import MiamiLanding from './components/MiamiLanding';
+import InventoryAcquisitionForCarDealersSEO from './components/InventoryAcquisitionForCarDealersSEO';
+import CarDealerLeadRecoverySEO from './components/CarDealerLeadRecoverySEO';
+import PrivateSellerCarLeadsSEO from './components/PrivateSellerCarLeadsSEO';
+import DealerResponseTimeSEO from './components/DealerResponseTimeSEO';
+import HowDealersBuyMoreCarsWithoutAuctionsSEO from './components/HowDealersBuyMoreCarsWithoutAuctionsSEO';
 import SEO from './components/SEO';
 
 const ScrollToTop = () => {
@@ -101,6 +106,11 @@ const App: React.FC = () => {
         <Route path="/after-hours-car-dealership-leads" element={<AfterHoursCarDealershipLeadsSEO />} />
         <Route path="/losing-car-sales-leads" element={<LosingCarSalesLeadsSEO />} />
         <Route path="/virtual-bdc-for-car-dealerships" element={<VirtualBDCForCarDealershipsSEO />} />
+        <Route path="/inventory-acquisition-for-car-dealers" element={<InventoryAcquisitionForCarDealersSEO />} />
+        <Route path="/car-dealer-lead-recovery" element={<CarDealerLeadRecoverySEO />} />
+        <Route path="/private-seller-car-leads" element={<PrivateSellerCarLeadsSEO />} />
+        <Route path="/dealer-response-time" element={<DealerResponseTimeSEO />} />
+        <Route path="/how-dealers-buy-more-cars" element={<HowDealersBuyMoreCarsWithoutAuctionsSEO />} />
       </Routes>
       
       <footer className="py-24 bg-white border-t border-slate-100">
